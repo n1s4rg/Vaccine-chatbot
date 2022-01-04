@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main{
+    padding: 30px;
+}
+
+body{
+    line-height: 1.6;
+}
+
+
+.float-container{
+    display: flex;
+    margin-left: 20px;
+}
+
+
+
+.spacing{
+    word-spacing: 2px;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgba(235,0,0,255);
+    
+}
+
+.img{
+    padding-left: 20px;
+    
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-list li{
+     list-style: none;
+}
+
+.nav-list a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-link{
+    position:relative;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.nav-link::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    bottom: 0%;
+    left: 0;
+    transition: width 0.3s ease-out;
+}
+
+.nav-link:hover.nav-link::after{
+    width: 100%;
+}
+
+
+.container1{
+    padding: 40px;
+    background-color: cornsilk;
+    position: relative;
+}
+
+.info{
+    text-decoration:none;
+}
+
+#main{
+    padding: 30px;
+}
+
+.container{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+.left_part{ 
+    float: left;
+    width: 30%;
+    padding: 40px;
+    height: 300px;
+    border-style: groove;
+    border-color: orangered;
+    border-radius: 10px;
+    font-weight: lighter;
+    text-align: center;
+    height: fit-content;
+    padding-top: 10px;
+}
+
+.showbox{
+    text-align: center;
+    border-style: groove;
+    border-color: orangered;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    padding: 5px 20px 5px 20px; 
+}
+
+ul{
+    text-align: justify;
+}
+
+.wrapper{
+    max-width: 500px;
+    width: 100;
+    background: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.wrapper_title{
+    color: orangered;
+    font-size: 50px;
+}
+
+span{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+
+
+
+
+.btn{
+    background-color: rgb(238, 40, 40);
+    color: white;
+    padding: 20px;
+    font-style:normal;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: rgb(238, 40, 40);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+ }
+
+
+
+
+ 
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Profle_Vaccine Canada</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/whatsapp-chat-support.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="img">
+            <img class="img" src="./img/logo.png" height="66px" width="166px">
+        </div>
+        <ul class="nav-list">
+            <li class="nav-link">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="nav-link">
+                <a href="status.html">Vaccination Status</a>
+              </li>
+              <li class="nav-link">
+                <a href="Information.html">Information</a>
+              </li>
+              <li class="nav-link">
+                <a href="FAQS.html">FAQ's</a>
+              </li>
+              <li class="nav-link">
+                <a href="contactus.html">Contact Us</a>
+              </li>
+        </ul>
+    </nav>
+
+    <div class="getSSN">
+        <Label>Enter your SSN:</Label>
+        <input id="ssn" type="number" name="SSN">
+        <input type="button" value="Get Data" onclick="getData()">
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="personalInfo">
+        <span id="ssn_data"></span>
+        <br>
+        <span id="1st_dose_date"> </span>
+        <br>
+        <span id="1st_dose_slot"> </span>
+        <br>
+        <span id="1st_dose_status"> </span>
+        <br>
+        <span id="2nd_dose_date"> </span>
+        <br>
+        <span id="2nd_dose_slot"> </span>
+        <br>
+        <span id="2nd_dose_status"> </span>
+
+    </div>
+
+    <script src="./js/profile.js">
+    </script>
+
+</body>
+
+</html>

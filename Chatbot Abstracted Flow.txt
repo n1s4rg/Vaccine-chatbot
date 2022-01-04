@@ -1,0 +1,111 @@
+								################################
+								################################
+								####					   	####
+								####  ChatBot Message Flow 	####
+								####						####
+								################################
+								################################
+
+
+
+	A.	Welcome Message [In english and french] 
+		-	Hi, I'm a VaccineBot[Chatbot Name] here to help you book for an appointment.
+
+		B.	Choose a language : 
+		-	1. English
+		-	2. French
+
+		if 
+		Option 1 -	Proceed with English
+		Option 2 -	Proceed with French
+
+		Proceed according to the language selected...
+
+
+
+
+	B.	Show Options:
+		1-	Book Appointment
+		2-	Information (Tips)
+		3-	Emergency Contect
+		4-	Contact Us
+		5-	FAQs
+		
+		
+		1.	Enter Social Num
+		Checking Eligibility...
+		
+			1.1-	If Eligible for 1st dose 
+				- Take details such as Name, Dob, Email, Identification Num
+				- Proceed to Book the slot
+				
+					If 1st dose completed 
+				- Check if eligible for 2nd dose (gap btw two doses)
+					If eligible:
+				- Show Available Slots to Book according to hospital list
+				- User Select the Slot and asked for any decease or pregnancy(if women)
+				- Take the details & Give User an AppointmentID(for verification)
+			
+			
+			1.2-	If not Eligible
+				- Show error Message (Reason) like...
+					- You already took 2 doses of vaccines
+					- Time gap between 2 doses are not sufficient
+					- Age is not enough for vaccines
+					
+			+ Back to Main Menu
+			
+					
+					
+		2.	Information About...
+			Options:
+				2.1 - Covid Symptoms
+				2.2 - Covid Suggestions
+				2.3 - Statistics
+				
+				
+			2.1-	Give user the details about Covid Symptoms
+				2.1.1- If you have any of these symptoms, please contact the hospital immediately.
+					-	Option 1 - Navigate to Emergency contact [3]
+					-	Option 2 - Navigate to Contact Us [4]
+					
+					
+			2.2-	Show Tips(Suggestions) For Covid  (Include all questions and queries)
+				2.2.1 (Loop) - Want More Tips ??
+								- YES - Show More Tips
+								- NO  - Back to Main Menu
+								
+			2.3-	Show user the Statistics
+					RegionWise & WorldWide...
+					- Deaths
+					- Recoveries
+					- No. of Empty And Reserved Beds 
+					
+			+ Back to Main Menu
+			
+
+			
+		3.	Emergency Contact (In case of covid patient)
+			- Option to dial 911 and Show Important Steps to follow prevention
+			
+			+ Back to Main Menu
+			
+
+
+		4.	If User choose to Contact Us
+				- Option to choose Region -> choose Area
+				- Give the Address & Phone no. of nearest hospital
+				
+			+ Back to Main Menu	
+			
+			
+		
+		5.	Show FAQs to User
+			5.1 (loop) - Option to Show More...
+			
+			+ Back to Main Menu
+			
+			
+			
+			
+			
